@@ -44,12 +44,15 @@ header{
     margin: 0px 20px 0px 20px;
 }
 .action_button button{
-    width: 8vw;
+    width: auto;
     color: white;
-    height: 40px;
     border: none;
     border-radius: 20px;
     background-color: rgb(218, 97, 16);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .ad_flex_wrapper{
