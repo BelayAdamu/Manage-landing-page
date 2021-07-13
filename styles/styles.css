@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    background-image: url(./../images/bg-simplify-section-desktop.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    height: 5vw;
+    align-items: center;
+    align-self: center;
+}
+.company_logo{
+    width: 8vw;
+    height: 40px;
+    background-image: url(./../images/logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    margin: 0px 20px 0px 20px;
+}
+.action_button button{
+    width: 8vw;
+    color: white;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(218, 97, 16);
+}
