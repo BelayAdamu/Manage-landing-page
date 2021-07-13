@@ -8,6 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 100vw;
+    overflow-x: hidden;
     background-image: url(./../images/bg-simplify-section-desktop.svg);
     background-position: top;
     background-repeat: no-repeat;
