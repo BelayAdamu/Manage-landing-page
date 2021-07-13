@@ -11,7 +11,7 @@ body{
     background-image: url(./../images/bg-simplify-section-desktop.svg);
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 header{
@@ -50,4 +50,48 @@ header{
     border: none;
     border-radius: 20px;
     background-color: rgb(218, 97, 16);
+}
+
+.ad_flex_wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    align-self: center;
+    margin: 40px 0px 0px 0px;
+}
+.left_side_container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.main_header{
+    width: 80%;
+    margin: 100px 0 0 0;
+}
+.main_header h1{
+    font-size: 500%;
+}
+.main_description{
+    width: 40%;
+    margin: 40px 0 0 0;
+}
+.no_2{
+    margin: 40px 0 0 0;
+}
+.right_side_container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.statistics{
+    display: flex;
+    /* background-color: gold; */
+    width: 100%;
+    height: auto;
+    justify-content: flex-end;
+}
+.stat_pic{
+    width: 90%;
+    height: auto;
 }
