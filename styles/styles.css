@@ -9,7 +9,7 @@ body{
     flex-direction: column;
     width: 100vw;
     overflow-x: hidden;
-    background-image: url(./../images/bg-simplify-section-desktop.svg);
+    background-image: url(./../images/bg-tablet-pattern.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,15 +69,19 @@ header{
     width: 50%;
 }
 .main_header{
-    width: 80%;
+    width: 90%;
     margin: 100px 0 0 0;
 }
 .main_header h1{
-    font-size: 500%;
+    font-size: 450%;
 }
 .main_description{
-    width: 40%;
+    width: 55%;
     margin: 40px 0 0 0;
+}
+
+.main_description p{
+    text-align: justify;
 }
 .no_2{
     margin: 40px 0 0 0;
@@ -98,4 +102,71 @@ header{
 .stat_pic{
     width: 90%;
     height: auto;
+}
+
+.aboutCompany{
+    display: flex;
+    width: 95%;
+    margin: 170px 0 0 0;
+    align-self: center;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.leftAbout{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: start;
+}
+
+.leftAboutHeader{
+    width: 100%;
+    font-size: 180%;
+}
+
+.leftAboutDescription{
+    margin: 20px 0 0 0;
+    width: 55%;
+}
+.leftAboutDescription p{
+    text-align: justify;
+}
+.rightAbout{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+    align-items: flex-end;
+}
+.companySax {
+    display: flex;
+    width: 90%;
+    flex-direction: row ;
+}
+.saxNo{
+    display: flex;
+    width: 150px;
+    height: 30px;
+    padding: 15px;
+    margin-right: 20px;
+    background-color: rgb(218, 97, 16);
+    border-radius: 15px;
+    justify-content: center;
+}
+.saxNo h3{
+    align-self: center;
+    justify-self: center;
+    color: white;
+}
+
+.saxContent h3{
+    margin-bottom: 15px;
+}
+.saxContent p{
+    text-align: justify;
+    margin-bottom: 50px;
 }
