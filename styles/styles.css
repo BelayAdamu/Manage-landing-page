@@ -180,7 +180,7 @@ header{
 }
 .testimonials_heading h1{
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 120px;
 }
 .testimonial_cards {
     display: flex;
@@ -188,9 +188,32 @@ header{
     justify-content: space-evenly;
 }
 .card {
-    width: 25%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    overflow: visible;
+}
+.avatar {
+    position: absolute;
+    left: 40%;
+    top: -50px;
+    width: 20%;
+    margin: 0 auto;
+}
+.avatar img{
+    width: 100%;
 }
 .card_content {
+    background-color: rgb(226, 243, 255);
     text-align: center;
+    border-radius: 10px;
+    padding: 10% 5%;
 }
-        
+.card_content h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.no_3{
+    margin: 50px auto;
+}       
