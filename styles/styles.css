@@ -49,7 +49,7 @@ header{
     color: white;
     border: none;
     border-radius: 20px;
-    background-color: rgb(218, 97, 16);
+    background-color: rgb(218, 56, 16);
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
@@ -152,7 +152,7 @@ header{
     height: 30px;
     padding: 15px;
     margin-right: 20px;
-    background-color: rgb(218, 97, 16);
+    background-color: rgb(218, 56, 16);
     border-radius: 15px;
     justify-content: center;
 }
@@ -205,7 +205,7 @@ header{
     width: 100%;
 }
 .card_content {
-    background-color: rgb(226, 243, 255);
+    background-color: rgb(235, 237, 245);
     text-align: center;
     border-radius: 10px;
     padding: 10% 5%;
@@ -216,4 +216,29 @@ header{
 }
 .no_3{
     margin: 50px auto;
-}       
+}
+.ad_for_action{
+    background-image: url(../images/bg-simplify-section-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: rgb(218, 56, 16);;
+    padding: 50px 2.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ad_section h1{
+    color: white;
+    font-size: 50px;
+    display: inline-block;
+    width: 70%;
+}
+.no_4{
+    display: flex;
+}
+.no_4 button{
+    background-color: white;
+    color:rgb(218, 56, 16);
+    align-self: center;
+}      
