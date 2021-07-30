@@ -376,6 +376,7 @@ footer{
     .leftAboutDescription{
         width: 80%;
         align-self: center;
+        line-height: 30px;
     }
     .leftAboutDescription p{
         text-align: center;
@@ -387,5 +388,67 @@ footer{
         justify-items: center;
         align-items: center;
     }
-
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+    .card {
+        width: 100%;
+    }
+    .card-2, .card-3 {
+        display: none;
+    }
+    .avatar {
+        left: 40%;
+        top: -40px;
+    }
+    .card_content p{
+        margin: 0px auto;
+        text-align: center;
+        line-height: 30px;
+        width: 80%;
+    }
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+    .ad_for_action{
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .ad_section{
+        text-align: center;
+    }
+    
+    .ad_section h1{
+        color: white;
+        font-size: 50px;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    .no_4 button{
+        background-color: white;
+        color:rgb(218, 56, 16);
+        align-self: center;
+        margin: 20px auto 0px auto;
+    }
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+    footer{
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 50px 2.5%;
+        background-color: rgb(3, 3, 26);
+    }
+    .input_button_section{
+        order: 1;
+    }
+    .link_section_1{
+        order: 2;
+    }
+    .link_section_2{
+        order: 3;
+    }
+    .icons_section{
+        order: 4;
+    }
+  
+    
 }
