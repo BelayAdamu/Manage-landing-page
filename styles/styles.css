@@ -346,7 +346,7 @@ footer{
     color: hsl(0, 0%, 98%);
 }
 
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 992px){
     body{
         background-repeat: repeat-y;
         background-size: 100% auto;
@@ -442,7 +442,7 @@ footer{
     }
 /*/////////////////////////////////////////////////////////////////////////////////////*/
     .card {
-        width: 100%;
+        width: 60%;
     }
     .card-2, .card-3 {
         display: none;
@@ -495,6 +495,9 @@ footer{
         justify-content: center;
     }
     .input_button_section{
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
         order: 1;
     }
     .link_section{
@@ -507,7 +510,7 @@ footer{
     }
     .font_awsome_section{
         margin: 0 auto 40px auto;
-        width: 80%;
+        width: 60%;
     }
     .logo_section{
         order: 2;
@@ -522,5 +525,53 @@ footer{
     .copyrt{
         margin: 0px auto;
         color: rgb(117, 135, 161);
+    }
+}
+
+@media only screen and (max-width: 576px){
+/*///////////////////////////////////////////////////////////////////////////*/
+    .ad_flex_wrapper{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .left_side_container{
+        width: 100%;
+        order: 2;
+    }
+    .right_side_container{
+        width: 100%;
+        order:1;
+    }
+    .main_header{
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .main_header h1{
+        font-size: 40px;
+    }
+    .main_description{
+        width: 90%;
+        justify-self: center;
+        align-self: center;
+    }
+    .main_description p{
+        text-align: center;
+        line-height: 30px;
+    }
+    .no_2{
+        margin-left: auto;
+        margin-right: auto;
+    }
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+    .card {
+        width: 100%;
+    }
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+    .input_button_section{
+        order: 1;
+    }
+    .font_awsome_section{
+        width: 80%;
     }
 }
