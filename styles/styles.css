@@ -367,6 +367,7 @@ footer{
         height: 100vh;
         min-height:640px;
         overflow-y: hidden;
+        padding-top: 11px;
     }
     .disp_none{
         display: none;
