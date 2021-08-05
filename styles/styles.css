@@ -34,6 +34,7 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% auto;
+    cursor: pointer;
 }
 .navbar{
     display: flex;
@@ -54,12 +55,21 @@ header{
     text-align: center;
     margin: 0px 20px 0px 20px;
 }
+.nav-links a:hover{
+    color: rgb(182, 178, 178);
+}
 .action_button button{
     color: white;
     border: none;
     border-radius: 30px;
     background-color: hsl(12, 88%, 59%);
     padding: 10px 30px;
+    cursor: pointer;
+    transition: all ease-in 0.2s ;
+}
+.action_button button:hover{
+    color: rgb(218, 213, 213);
+    box-shadow: 2px 2px 15px hsl(12, 100%, 39%) ;
 }
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -200,7 +210,9 @@ header{
     width: 100vw;
     justify-content: center;
     align-content: center;
+    scrollbar-width: none;  /* Firefox */
 }
+.testimonials
 .testimonials_heading h1{
     color:  hsl(233, 12%, 13%) ;
     text-align: center;
@@ -212,6 +224,10 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    scrollbar-width: none;  /* Firefox */
+}
+.testimonial_cards::-webkit-scrollbar{
+    display: none;
 }
 .cards_wrapper{
     width: 200%;
@@ -227,7 +243,7 @@ header{
     display: flex;
     margin: 50px 10px;
     flex-direction: column;
-    width: 500px;
+    width: 460px;
     overflow: visible;
 }
 .avatar {
@@ -252,7 +268,7 @@ header{
     margin-bottom: 20px;
 }
 .card_content p{
-    line-height: 30px;
+    line-height: 25px;
 }
 .no_3{
     margin: 50px auto;
@@ -361,6 +377,14 @@ footer{
     border-radius: 30px;
     background-color: rgb(218, 56, 16);
     color: white;
+    cursor: pointer;
+    transition: all ease-in 0.2s ;
+}
+
+.go_button button:hover{
+    color: rgb(131, 130, 130);
+    box-shadow: 2px 2px 15px hsl(12, 100%, 39%);
+    background-color: burlywood;
 }
 .copyrt{
     margin-left: auto;
@@ -535,7 +559,7 @@ footer{
         width: 2400px;
     }
     .card {
-        width: 550px;
+        width: 360px;
     }
     /* .card-2, .card-3, .card-4 {
         display: none;
