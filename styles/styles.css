@@ -207,15 +207,27 @@ header{
     margin-bottom: 120px;
 }
 .testimonial_cards {
+    overflow-x: scroll;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.cards_wrapper{
+    width: 200%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding: 0px 50px;
+    margin: 0px auto;
+    
 }
 .card {
     position: relative;
     display: flex;
+    margin: 50px 10px;
     flex-direction: column;
-    width: 30%;
+    width: 500px;
     overflow: visible;
 }
 .avatar {
@@ -367,7 +379,6 @@ footer{
         height: 100vh;
         min-height:640px;
         overflow-y: hidden;
-        padding-top: 11px;
     }
     .disp_none{
         display: none;
@@ -517,12 +528,18 @@ footer{
         text-align: justify;
     }
 /*/////////////////////////////////////////////////////////////////////////////////////*/
+    .testimonial_cards{
+        width: 100vw;
+    }
+    .cards_wrapper{
+        width: 2400px;
+    }
     .card {
-        width: 60%;
+        width: 550px;
     }
-    .card-2, .card-3 {
+    /* .card-2, .card-3, .card-4 {
         display: none;
-    }
+    } */
     .avatar {
         left: 40%;
         top: -40px;
@@ -531,7 +548,7 @@ footer{
         margin: 0px auto;
         text-align: center;
         line-height: 30px;
-        width: 80%;
+        width: 90%;
     }
 /*////////////////////////////////////////////////////////////////////////////////////////*/
     .ad_for_action{
@@ -640,9 +657,9 @@ footer{
         margin-right: auto;
     }
 /*/////////////////////////////////////////////////////////////////////////////////////*/
-    .card {
+    /* .card {
         width: 100%;
-    }
+    } */
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
     .font_awsome_section{
         width: 80%;
