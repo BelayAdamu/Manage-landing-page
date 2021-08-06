@@ -39,6 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URl](https://github.com/BelayAdamu/Manage-landing-page.git)
+- live site URL: [Live site](https://belayadamu.github.io/Manage-landing-page/)
 ## My process
 
 ### Built with
