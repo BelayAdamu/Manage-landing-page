@@ -358,10 +358,12 @@ footer{
     align-content: space-between;
 }
 .inputs{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-bottom: 40px;
 }
 .inbox_input{
     width: 250px;
@@ -386,9 +388,21 @@ footer{
     box-shadow: 2px 2px 15px hsl(12, 100%, 39%);
     background-color: burlywood;
 }
+.err_msg{
+    font-size: 14px;
+    color: red;
+    height: 15px;
+    margin-right: auto;
+}
+.err_msg p{
+    margin-left: 5px;
+}
+.noErr_msg{
+    display: none;
+}
 .copyrt{
-    margin-left: auto;
-    color: hsl(0, 0%, 98%);
+    margin-left: auto;  
+    color: rgb(85, 85, 109);
 }
 
 @media only screen and (max-width: 992px){
@@ -400,7 +414,7 @@ footer{
         width: 100%;
     }
     .disable_scroll{
-        height: 100vh;
+        height: 100%;
         min-height:640px;
         overflow-y: hidden;
     }
@@ -614,12 +628,13 @@ footer{
     .input_button_section{
         margin-left: auto;
         margin-right: auto;
-        width: 60%;
+        width: 100%;
         order: 1;
     }
     .link_section{
         width: 100%;
         order: 2;
+        margin-top: 40px;
         margin-bottom: 40px;
     }
     .icons_section {
@@ -641,7 +656,7 @@ footer{
     }
     .copyrt{
         margin: 0px auto;
-        color: rgb(117, 135, 161);
+        color: rgb(58, 58, 58);
     }
 }
 
